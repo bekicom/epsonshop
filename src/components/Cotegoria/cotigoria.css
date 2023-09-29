@@ -1,0 +1,22 @@
+.cotigoria{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+
+}
+
+.cotigoria > button{
+    width: 124px;
+    height: 50px;
+    background: none;
+    border: none;
+    transition:  0.5s;
+    border-radius: 7px;
+}
+.cotigoria > button:hover{
+    background-color: rgba(238, 205, 15, 0.47);
+    transform: scale(1.1);
+    font-weight: 500;
+}
